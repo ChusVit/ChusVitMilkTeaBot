@@ -67,24 +67,24 @@ Hệ thống không chỉ là một sản phẩm công nghệ mà còn giải qu
    ```
 
 3. Thiết lập biến môi trường:
-Tạo file .env ở thư mục gốc và điền thông tin các API Key tương ứng:
-```bash
-BOT_TOKEN=your_telegram_bot_token
-OPENAI_API_KEY=your_openai_api_key
-DB_URL=your_postgresql_connection_string
-PAYOS_CLIENT_ID=your_payos_client_id
-PAYOS_API_KEY=your_payos_api_key
-PAYOS_CHECKSUM_KEY=your_payos_checksum_key
-```
+  Tạo file .env ở thư mục gốc và điền thông tin các API Key tương ứng:
+  ```bash
+  BOT_TOKEN=your_telegram_bot_token
+  OPENAI_API_KEY=your_openai_api_key
+  DB_URL=your_postgresql_connection_string
+  PAYOS_CLIENT_ID=your_payos_client_id
+  PAYOS_API_KEY=your_payos_api_key
+  PAYOS_CHECKSUM_KEY=your_payos_checksum_key
+  ```
 
 4. Khởi động server (Bot & Webhook):
-```bash
-python main.py
-```
-(Lưu ý: Để Webhook hoạt động trên Localhost, cần sử dụng ngrok để expose port của FastAPI ra ngoài Internet).
+  ```bash
+  python main.py
+  ```
+  (Lưu ý: Để Webhook hoạt động trên Localhost, cần sử dụng ngrok để expose port của FastAPI ra ngoài Internet).
 
-##👨‍💻** Tác giả**
-Huỳnh Xuân Quốc Việt
-Đại học Bách Khoa TP.HCM (HCMUT) - Sinh viên năm 3 (Chương trình Liên thông), chuyên ngành Khoa học Máy tính
-Định hướng: Artificial Intelligence Engineer
-GitHub: https://github.com/ChusVit
+## 👨‍💻** Tác giả**
+- **Huỳnh Xuân Quốc Việt**
+- Đại học Bách Khoa TP.HCM (HCMUT) - Sinh viên năm 3 (Chương trình Liên thông), chuyên ngành Khoa học Máy tính
+- Định hướng: Artificial Intelligence Engineer
+- GitHub: https://github.com/ChusVit
